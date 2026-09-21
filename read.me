@@ -1,0 +1,30 @@
+# 4.6 GHz Transimpedance Amplifier (TIA) Characterization Board
+
+Designed a high-frequency **Transimpedance Amplifier (TIA) characterization board** for RF evaluation up to **4.6 GHz**, with a controlled **50 Ω RF interface** for VNA-based measurements.
+
+The PCB was initially developed as a 4-layer design but was completely re-architected into a **2-layer RF stackup** due to high-frequency material availability and fabrication constraints. The redesigned board uses **Rogers RO4350B (10 mil)** with a continuous bottom-layer ground plane and top-layer controlled-impedance CPW routing.
+
+The RF geometry was recalculated for **70 μm (2 oz) copper**, including CPW trace width and spacing, to maintain the required 50 Ω characteristic impedance while satisfying the fabricator's DFM constraints. Additional optimization included increased CPW clearances, soldermask expansion, RF pad neck-downs, and minimization of parasitic inductance and capacitance at the TIA interfaces.
+
+The board incorporates **edge-launch SMA connectors** for direct VNA connectivity and is designed for **S-parameter characterization up to 6 GHz**.
+
+### Key Specifications
+
+* **Target frequency:** 4.6 GHz
+* **RF interface:** 50 Ω CPW
+* **Substrate:** Rogers RO4350B
+* **Dielectric thickness:** 0.254 mm (10 mil)
+* **PCB:** 2-layer
+* **Copper:** 70 μm (2 oz)
+* **Surface finish:** ENIG
+* **Connectors:** Edge-launch SMA
+* **Measurement:** VNA-based S-parameter characterization
+
+### Engineering Highlights
+
+* Re-architected a **4-layer RF PCB into a 2-layer design** under fabrication constraints.
+* Recalculated **50 Ω CPW geometry** for 2 oz copper.
+* Optimized RF transitions between transmission lines and TIA IC pads.
+* Applied DFM constraints for thick-copper fabrication.
+* Designed for low-parasitic, high-frequency signal integrity.
+* Prepared the board for VNA characterization up to 6 GHz**.
